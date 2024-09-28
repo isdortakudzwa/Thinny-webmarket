@@ -2,7 +2,6 @@ import { useState } from "react";
 import  UserSignUp from './Auth/Signin'
 import { useNavigate, useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Footer from "../pages/Footer";
 function Signup({toggleForm}) {
 
     const [Email, setEmail] = useState("");

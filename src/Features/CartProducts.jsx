@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { CartContext } from "./ContextProvider";
+import products from "../components/Database/Database";
 
 function CartProduct({ product }) {
   const { cart, dispatch } = useContext(CartContext);
@@ -17,19 +18,19 @@ function CartProduct({ product }) {
   };
 
   return (
-    <div className="sim">
+    <><div className="sim">
       <div className="services--products1">
         <img src={product.img} alt="" className="services-img1" />
         <p className="product-name1">{product.name}</p>
         <p className="serve-text1">{product.text}</p>
 
         <div className="services-text-add1">
-          
-        <div className="services-stars">
-         <img src={product.rate} alt="" className="serve-stars1"/>
-         <img src={product.rate} alt="" className="serve-stars1"/>
-         <img src={product.rate} alt="" className="serve-stars1"/>
-       </div>
+
+          <div className="services-stars">
+            <img src={product.rate} alt="" className="serve-stars1" />
+            <img src={product.rate} alt="" className="serve-stars1" />
+            <img src={product.rate} alt="" className="serve-stars1" />
+          </div>
 
           <p className="price">${product.price}</p>
         </div>
@@ -49,6 +50,11 @@ function CartProduct({ product }) {
         </button>
       </div>
     </div>
+    
+    
+    </>
+
+    
   );
 }
 

@@ -5,7 +5,7 @@ import nice from '../components/Database/Images/kime.png'
 import big from '../components/Database/Images/vivo.png'
 import Map from "./Map";
 import GetSignedUp from "./GetSignedUp";
-import Reviews from "./Reviews";
+import ReviewsCarousel from "./Corousel-Wrapper";
 
 const Home = () => {
 
@@ -74,7 +74,7 @@ const Home = () => {
 
   </div>
     <GetSignedUp /> 
-    <Reviews />
+    <ReviewsCarousel />
     <Map />
 
     </>

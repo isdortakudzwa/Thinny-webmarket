@@ -4,7 +4,7 @@ import more from '../components/Database/Images/pexels-panther-2092450.jpg';
 import kim from '../components/Database/Images/pexels-mart-production-8801115.jpg';
 import oni from '../components/Database/Images/pexels-danxavier-1239291.jpg';
 import nico from '../components/Database/Images/pexels-elsimage-1405963.jpg';
-import bule from '../components/Database/Images/pexels-ox-street-3848035-6050921.jpg'
+import bule from '../components/Database/Images/pexels-ox-street-3848035-6050921.jpg';
 
 function Reviews() {
 
@@ -63,10 +63,15 @@ const [text, setText] = useState ([
     }
 
   ])
+
+
+
   
   const handleClick = () =>{
     setText;
   }
+
+
   return (
     <div className="reviews">
        <h3 >Reviews</h3>
@@ -75,6 +80,8 @@ const [text, setText] = useState ([
              {text.map((item) => 
              
         <>
+
+
              <div className='okay'>
               
              <div className="stars-img" key={item.id}>
@@ -100,6 +107,7 @@ const [text, setText] = useState ([
                  </div>
                
             </div>
+
         </> 
 
                

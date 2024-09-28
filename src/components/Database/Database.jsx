@@ -26,6 +26,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 49.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png",
     rate:star
   },
 
@@ -36,6 +37,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 49.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
     rate:star
   },
   
@@ -46,6 +48,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png",
     rate:star
   },
 
@@ -56,6 +59,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png",
     rate:star
   },
 
@@ -66,6 +70,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png",
     rate:star
   },
 
@@ -76,6 +81,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png",
     rate:star
   },
 
@@ -86,6 +92,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" ,
     rate:star
   },
   
@@ -96,6 +103,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 49.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png",
     rate:star
   },
 
@@ -106,6 +114,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 49.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
     rate:star
   },
   
@@ -116,6 +125,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png",
     rate:star
   },
 
@@ -126,6 +136,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png",
     rate:star
   },
 
@@ -136,6 +147,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
     rate:star
   },
 
@@ -146,6 +158,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png",
     rate:star
   },
 
@@ -156,6 +169,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
     rate:star
   },
 
@@ -166,6 +180,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png",
     rate:star
   },
   
@@ -176,6 +191,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png",
     rate:star
   },
 
@@ -186,6 +202,7 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png",
     rate:star
   },
 
@@ -196,8 +213,10 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png",
     rate:star
   },
+
   {
     id: 86,
     img:  pepy,
@@ -205,16 +224,21 @@ const products = [
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png",
     rate:star
-  }, {
+  },
+  
+  {
     id: 97,
     img:  pepy,
     name: 'Nike Boots',
     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum molestiae labore',
     btn:'Buy',
     price: 89.99,
+    sponser:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png",
     rate:star
   }
+
 ];
 
 export default products;

@@ -27,22 +27,20 @@ const AboutUs = () => {
 
     </div>
 
-      <marquee behavior="scroll" direction="center">
-        <div className="images">
 
-          {products.map(product => <div key={product.id} className="product">
+    
+    <div className="partners-logo-slider">
+        <div className="slide-track">
+           {products.map(product => <div key={product.id} className="slide-track">
+         <img src={product.sponser} alt={product.name} height="100" width="250"   loading="lazy" />
+         </div>
+       )}
+        </div>
+    </div>
 
-            <img src={product.img} alt={product.name} className='data-img' />
-
-
-          </div>
-
-          )}
-
-        </div> </marquee>
         <Slide />
         
-        </>
+      </>
     
   )
 }

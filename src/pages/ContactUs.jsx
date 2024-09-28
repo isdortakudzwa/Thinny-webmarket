@@ -1,8 +1,18 @@
 import shoe from '../components/Database/Images/pexels-ox-street-3848035-6050921.jpg';
-
+import products from '../components/Database/Database';
 function ContactUs() {
   return (
-    <><div className="film">
+    <>
+      <div className="partners-logo-slider">
+        <div className="slide-track">
+          {products.map(product => <div key={product.id} className="product">
+            <img src={product.img} alt={product.name} className='data-img' loading="lazy" />
+          </div>
+          )}
+        </div> 
+    </div>
+    
+    <div className="film">
 
       <img src={shoe} alt="Best shoe" className='bestie'  loading="lazy" />
       <div className="more1">
@@ -21,7 +31,9 @@ function ContactUs() {
         </form>
 
       </div>
-    </div></>
+    </div>
+  
+    </>
     
   )
 }

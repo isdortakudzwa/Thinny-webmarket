@@ -17,7 +17,7 @@ function Footer() {
               </div>
 
               <div className="footer-2">
-                  <h2>Stay Connected</h2>
+                  <h2>Connect</h2>
                   <p>Address<span className="span-foter">: @izzyZimbabwe</span></p>
                   <p>Phone<span className="span-foter">: @Thinny</span></p>
                   <p>Email<span className="span-foter">: @Thinny.com</span></p>

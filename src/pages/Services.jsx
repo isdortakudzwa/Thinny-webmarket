@@ -32,7 +32,7 @@ function Services() {
         <button className="a--a" onClick={() => setItem(products)}>All Types</button>
         <button className="a--a" onClick={() => filteritem('Nike Boots')}>Formal Shoes</button>
         <button className="a--a" onClick={() => filteritem('Sneakers Air force')}>Drip Shoes</button>
-        <Link className="a--a" to='/src/components/Login.jsx'>Purchase</Link>
+        <Link className="a--a" to='/'>Purchase</Link>
       </div>
 
 

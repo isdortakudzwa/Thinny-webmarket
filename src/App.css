@@ -315,6 +315,8 @@ text-decoration: none;
   background-color: #191919;
   padding-bottom: 78px;
   margin-top: -36px;
+  padding-bottom: 78px;
+  margin-top: -36px;
 }
 
 .super-btn{
@@ -672,8 +674,10 @@ padding: 20px;
 
 .full{
   padding: 40px 0;
+  padding: 40px 0;
   background-color: #191919;
   margin-top: -5px;
+  padding-bottom: 64px;
   padding-bottom: 64px;
 }
 
@@ -941,6 +945,7 @@ span{
   position: absolute;
   top: 723px;
   transition: .5s linear;
+  
   
 }
 
@@ -1314,6 +1319,9 @@ gap: 20px;
 .gold-stars{
   display: flex;
 }
+.gold-stars{
+  display: flex;
+}
 
 .stars-img{
   background-color: #2e2e3f ;
@@ -1321,7 +1329,10 @@ gap: 20px;
   padding: 10px 16px;
   margin:0 20px;
   width: 34%;
+  width: 34%;
 }
+
+
 
 
 
@@ -1336,6 +1347,7 @@ gap: 20px;
   font-family: 'poppins';
   font-size: 13px;
 }
+
 
 
 .reviews{
@@ -2286,8 +2298,4 @@ input {
 /* Full HD and larger monitors */
 @media only screen and (max-width: 1920px) {
   /* Styles for Full HD monitors */
-}
-
-.zre{
-  font-size: large;
 }

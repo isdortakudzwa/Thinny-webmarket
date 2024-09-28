@@ -17,6 +17,8 @@ function Slide() {
         color: "rgba(123,134,132,1)"
       });
 
+      const [key, setKey] = useState(0);
+
  const handleClick3= () => {
       setFirst({
       ImgUrl: big,
@@ -24,8 +26,10 @@ function Slide() {
       age: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt magnam minima nisi, soluta sit quae accusantium possimus numquam laboriosam deleniti dolor iste iusto itaque voluptates? Natus, veritatis officiis culpa velit doloribus fugiat, tempore vel cumque cupiditate voluptatibus sequi? Aliquam?',
       supImg: kim
     });
+    setKey(prevKey => prevKey + 1);
  }
 
+ 
   const handleClick1= () => {
        setFirst({
         ImgUrl:sur,
@@ -34,6 +38,7 @@ function Slide() {
         supImg: lim
 
         });
+        setKey(prevKey => prevKey + 1);
       }
 
   const handleClick2= () => {
@@ -44,20 +49,21 @@ function Slide() {
          supImg: safe 
  
          });
+         setKey(prevKey => prevKey + 1); 
        }
 
   return (
      <div className='full'>
-      <img src={first.ImgUrl} alt="shoeimage" className="img2"  loading="lazy" />
+      <img key={key}  src={first.ImgUrl} alt="shoeimage" className="img2 animate-slide"  loading="lazy" />
 
 
     <div className="verif">
 
-    <div className="smart">
+    <div className="smart animate-slide">
           <h1>{first.text}</h1>
           <p>{first.age}</p>
       </div>
-        <img src={first.supImg} alt="oneofimages" className="superimg"  loading="lazy" />
+        <img key={key} src={first.supImg} alt="oneofimages" className="superimg animate-slide"  loading="lazy" />
 
     </div>
 
