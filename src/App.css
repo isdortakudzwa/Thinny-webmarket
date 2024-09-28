@@ -2299,3 +2299,7 @@ input {
 @media only screen and (max-width: 1920px) {
   /* Styles for Full HD monitors */
 }
+
+.zre{
+  font-size: large;
+}
