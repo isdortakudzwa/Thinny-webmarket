@@ -6,3 +6,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/Thinny-Shoe-Website/', // Make sure this matches your repo name
 });
+
