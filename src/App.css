@@ -2284,6 +2284,10 @@ input {
 
 }
 
+.nice{
+  font-weight: 500;
+}
+
 /* Tablets */
 @media only screen and (max-width: 768px) {
   /* Styles for tablets */
