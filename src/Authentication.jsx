@@ -1,5 +1,5 @@
-import Login from "./components/Login";
-import Signup from "./components/Signup";
+import Login from "./Login";
+import Signup from "./Signup";
 import { useState } from "react";
 
 

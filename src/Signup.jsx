@@ -1,8 +1,8 @@
 import { useState } from "react";
-import  UserSignUp from './Auth/Signin'
+import  UserSignUp from './components/Auth/Signin'
 import { useNavigate, useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-function Signup({toggleForm}) {
+function Signup() {
 
     const [Email, setEmail] = useState("");
     const [Password, setPassword] = useState("");
@@ -52,7 +52,7 @@ function Signup({toggleForm}) {
 
 
               <p>Have an account</p>
-              <button className="form-btn" onClick={toggleForm}>Login</button>
+              <button className="form-btn">Login</button>
           </form>
 
       </div>
