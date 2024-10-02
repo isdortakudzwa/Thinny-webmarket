@@ -2,8 +2,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
-  base: '/Thinny-Shoe-Website/', // Make sure this matches your repo name
-});
-
+   export default defineConfig({
+     plugins: [react()],
+     base: '/', // Adjust this if your site is not at the root
+   })
