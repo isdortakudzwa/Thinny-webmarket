@@ -4,7 +4,7 @@ import userLogin from "./components/Auth/userLogin";
 import { useNavigate, useLocation } from "react-router-dom";
 
 
-const Login = () => {
+const Login = (props) => {
 
     const [Email, setEmail] = useState("");
     const [Password, setPassword] = useState("");
@@ -52,7 +52,7 @@ const Login = () => {
               {error && <p>{errorMessage}</p>}
               <button className="form-btn">Signin</button>
               <p>Dont have an account</p>
-              <button className="form-btn">Signup</button>
+              <button className="form-btn" onClick={props.toggle} >Signup</button>
           </form>
       </div>
       </>

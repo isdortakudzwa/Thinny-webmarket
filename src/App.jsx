@@ -11,6 +11,7 @@ import ContactUs from './pages/ContactUs';
 import Testimonials from './pages/Testimonials';
 import Cart from './Features/Cart';
 import Footer from './pages/Footer';
+import Login from './Login';
 function App() {
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/ContactUs' element={<ContactUs  />} />
           <Route path='/Authentication' element={<Authentication />} />
           <Route path='/Testimonials' element={<Testimonials />} />
+          <Route path='/Login' element={<Login />} />
           <Route path='/Cart' element={<Cart />} />
 
        <Route element={<PrivateRouteLoyout />}>

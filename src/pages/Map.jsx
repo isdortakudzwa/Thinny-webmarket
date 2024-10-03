@@ -69,7 +69,7 @@ const VideoGallery = () => {
 
   return (
     <div className="video-gallery">
-      <h2 className="gallery-title">Shoe Video Showcase</h2>
+      <h2 className="gallery-title">Video Showcase</h2>
       <div className="video-grid">
         {videos.map((video) => (
           <div key={video.id} className="video-item" onClick={() => openVideo(video)}>

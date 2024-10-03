@@ -29,7 +29,7 @@ function Navbar() {
         {/* Navigation Links */}
         <nav className={`nav ${menuOpen ? 'active' : ''}`}>
           <Link to='/'>Home</Link>
-          <Link to='/AboutUs'>About</Link>
+          <Link to='/Login'>Login</Link>
           <Link to='/Services'>Services</Link>
           <Link to='/ContactUs' className='lastly'>Get in touch</Link>
         </nav>
