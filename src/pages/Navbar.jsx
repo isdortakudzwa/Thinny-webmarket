@@ -6,6 +6,10 @@ function Navbar() {
   // State to toggle hamburger menu
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   // Toggle the hamburger menu
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -28,10 +32,10 @@ function Navbar() {
 
         {/* Navigation Links */}
         <nav className={`nav ${menuOpen ? 'active' : ''}`}>
-          <Link to='/'>Home</Link>
-          <Link to='/AboutUs'>AboutUs</Link>
-          <Link to='/Services'>Services</Link>
-          <Link to='/ContactUs' className='lastly'>Get in touch</Link>
+          <Link to='/'  onClick={closeMenu}>Home</Link>
+          <Link to='/AboutUs' onClick={closeMenu}>AboutUs</Link>
+          <Link to='/Services' onClick={closeMenu}>Services</Link>
+          <Link to='/ContactUs' className='lastly' onClick={closeMenu}>Get in touch</Link>
         </nav>
       </div>
       <Outlet />

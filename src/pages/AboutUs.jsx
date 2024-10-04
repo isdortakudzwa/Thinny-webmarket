@@ -1,4 +1,4 @@
-import yellow from '../components/Database/Images/bhoe.jpg'
+import yellow from '../components/Database/Images/teck.jpg'
 import products from '../components/Database/Database';
 import { Link } from 'react-router-dom';
 

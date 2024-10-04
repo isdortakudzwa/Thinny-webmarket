@@ -1678,6 +1678,7 @@ a > .plus-img{
     right: 0px;
   }
 
+ 
   /* Hamburger icon animations */
   .menu-icon.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
