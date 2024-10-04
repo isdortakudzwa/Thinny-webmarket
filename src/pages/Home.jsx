@@ -6,6 +6,7 @@ import big from '../components/Database/Images/vivo.png'
 import Map from "./Map";
 import GetSignedUp from "./GetSignedUp";
 import ReviewsCarousel from "./Corousel-Wrapper";
+import AboutUs from "./AboutUs";
 
 const Home = () => {
 
@@ -73,6 +74,7 @@ const Home = () => {
    </div>
 
   </div>
+     <AboutUs />
     <GetSignedUp /> 
     <ReviewsCarousel />
     <Map />

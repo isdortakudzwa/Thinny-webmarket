@@ -3,7 +3,8 @@ import { useState } from 'react';
  import one from '../components/Database/Images/nhasi.png';
  import two from '../components/Database/Images/nhasi1.png';
  import three from '../components/Database/Images/nhasi3.png';
- import plus from '../components/Database/Images/plus_5345954.png'
+ import plus from '../components/Database/Images/plus_5345954.png';
+ import { Link } from 'react-router-dom';
 
 
 function GetSignedUp() {
@@ -54,8 +55,10 @@ const handleClick = () => {
                <p onClick={handleClick}>{sup.smallText}</p>
 
                <div className="adds">
-                  <p>$123</p>
-                  <img src={plus} alt="" className='plus-img'  loading="lazy" />
+                <p>$123</p>
+                <Link to='/Services'>
+                <img src={plus} alt="" className='plus-img'    loading="lazy" />
+                </Link>
                </div>
 
              </div>

@@ -24,6 +24,7 @@ function App() {
           <Route exact path='/' element={<Home />} /> 
           <Route path='*' element={<Error />} />
           <Route path='/AboutUs' element={<AboutUs />} />
+         
           <Route path='/ContactUs' element={<ContactUs  />} />
           <Route path='/Authentication' element={<Authentication />} />
           <Route path='/Testimonials' element={<Testimonials />} />
@@ -31,8 +32,8 @@ function App() {
           <Route path='/Cart' element={<Cart />} />
 
        <Route element={<PrivateRouteLoyout />}>
-          <Route path='/Services' element={<Services  />} />
-      </Route>
+         <Route path='/Services' element={<Services  />} />
+       </Route>
 
 
       

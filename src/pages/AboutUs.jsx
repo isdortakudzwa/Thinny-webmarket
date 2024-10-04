@@ -2,7 +2,7 @@ import yellow from '../components/Database/Images/bhoe.jpg'
 import products from '../components/Database/Database';
 import { Link } from 'react-router-dom';
 
-import Slide from './Slide';
+// import Slide from './Slide';
 // import red from '../components/Images/pexels-lilartsy-1159670.jpg'
 const AboutUs = () => {
 
@@ -38,7 +38,7 @@ const AboutUs = () => {
         </div>
     </div>
 
-        <Slide />
+        {/* <Slide /> */}
         
       </>
     
