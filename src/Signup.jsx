@@ -50,10 +50,10 @@ function Signup(props) {
               {errorMessage && <p>{errorMessage}</p>}
               <button className="form-btn">Signup</button>
 
-
-              <p>Have an account</p>
-              <button className="form-btn" onClick={props.toggleForm}>Login</button>
           </form>
+
+          <p>Have an account</p>
+          <button className="form-btn" onClick={props.toggleForm}>Login</button>
 
       </div>
       

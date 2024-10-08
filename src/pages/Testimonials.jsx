@@ -1,5 +1,5 @@
 import TestimonialProps from "./TestimonialProps";
-import best from '../components/Database/Images/reng.jpg'; 
+import best from '../components/Database/Images/banner3.png'; 
 import { Link } from "react-router-dom";
 import back from '../components/Database/Images/back.png';
 function Testimonials() {

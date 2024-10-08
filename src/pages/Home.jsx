@@ -32,7 +32,7 @@ const Home = () => {
       <div className="banner-1">
         <h1 className="h1--home">Step Into Style</h1>
         <p className="banner-text">Explore our wide range of shoes designed for comfort and style. Whether youre looking for athletic shoes or chic sandals, we have something for everyone. Don’t miss out—find your fit today!</p>
-        <Link to='/Dashboard' className="banner-btn">Buy Now </Link>
+        <Link to='/Services' className="banner-btn">Buy Now </Link>
       </div>
 
       <div className="prod-img">

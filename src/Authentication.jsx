@@ -14,8 +14,7 @@ function Authentication() {
   return (
     <div>{toggle ? (<Login toggleForm={handleToggle} /> )
     :
-    (<Signup toggleForm={handleToggle}/> ) } </div>
-)
+    (<Signup toggleForm={handleToggle}/> ) } </div>)
 } 
  
 export default Authentication;
