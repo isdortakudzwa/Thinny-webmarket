@@ -359,7 +359,6 @@ text-decoration: none;
 
 
 .services-img {
-  height: 35vh;
   width: 100%;
   object-fit: contain;
   margin-top: -12px;
@@ -722,7 +721,6 @@ padding: 20px;
 }
 
 .fit > img {
-  height: 50vh;
   width: 40%;
   object-fit: cover;
   border-radius: 10px;
@@ -1767,10 +1765,9 @@ a > .plus-img{
 }
 
 .reviewer-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 87px;
+  border-radius: 21px;
+  object-fit: contain;
   margin-right: 10px;
 }
 
@@ -1786,78 +1783,12 @@ a > .plus-img{
   color: #f5c52f;
 }
 
- /* Extra small devices (phones) */
-@media only screen and (max-width: 320px) {
-  .nav {
-    width: 324px;   
-}
-
-.gallery-title {
-  font-size: 24px;
-}
+ 
 
 
-.h1--home {
-  margin-top: 74px;
-}
-
-
-.banner-change {
-  padding-top: 172px;
-}
-
-.contact-h1 {
-  margin: 7px 0;
-  font-size: 26px;
-}
-
-.iniput {
-  width: 96%;
-  margin-left: -9px;
-}
-
-.texta {
-  width: 92%;
-  height: 12vh;
-  margin-left: -9px;
-}
-
-.form-btni {
-  width: 104%;
-  margin-left: -6px;
-}
-
-.nav {
-  width: 255px;
-}
-
-.numbers {
-  margin-top: 92px;
-}
-
-.banner-img {
-  margin-bottom: 112px;
-}
-
-.about--img {
-  height: 39vh;
-  margin-bottom: 5px;
-}
-}
-
-
-/* Small phones */
-@media only screen and (max-width: 375px) {
-  /* Styles for standard smartphones */
-}
-
-/* Large phones and phablets */
-@media only screen and (max-width: 425px) {
-  /* Styles for larger phones */
-}
 
 /* Phablets and small tablets */
-@media only screen and (max-width: 576px) {
+   @media (min-width: 200px) and (max-width:568px){
 
   .banner {
     flex-direction: column;
@@ -1954,7 +1885,6 @@ a > .plus-img{
 
   .pikis {
     width: 100%;
-    height: 349px;
     margin-bottom: 42px;
   }
 
@@ -2436,3 +2366,164 @@ input {
   /* Styles for Full HD monitors */
 }
 
+
+    @media (min-width: 569px) and (max-width:768px){
+      .h1--home {
+        font-size: 2em;   
+    }
+
+    .banner {
+      width: 89%;
+      height: 43vh;
+      padding: 0px 42px;
+  }
+
+  .nav a {
+    font-size: 16px;
+}
+
+.banner-text {
+  font-size: 14px;
+  width: 97%;
+}
+
+.numbers {
+  padding-top: 11px;
+  padding-left: 17px;
+  width: 97.7%;
+}
+
+.carousel {
+  margin: -127px 25px 1px;
+}
+
+.about {
+  flex-direction: column;
+}
+
+.about--img {
+  width: 100%;
+  height: 45vh;
+}
+
+.about-text {
+  width: 82%;
+  padding: 12px 30px;
+  padding-bottom: 32px;
+  margin-top: 20px;
+}
+
+.about {
+  width: 100%;
+}
+
+.saini {
+  background-color: #191919;
+  padding: 20px 32px;
+}
+
+.pikis {
+  width: 31%;
+}
+
+.piks--img {
+  width: 100%;
+  height: 9vh;
+}
+
+.back {
+  margin-left: 38px;
+}
+
+.fit {
+  padding: 13px 10px;
+}
+
+.forever:hover .infoy {
+  height: 16vh;
+  width: 72.8%;
+  margin-left: 0px;
+}
+
+.forever:hover .infoy {
+  border-radius: 14px;
+}
+
+
+.infoy > h1 {
+  font-size: 18px;
+}
+
+.infoy p {
+  font-size: 10px;
+}
+
+.simple {
+  font-size: 10px;
+}
+  
+.footer-main p {
+  font-size: 12px;
+}
+
+.footer-main h2 {
+  font-size: 19px;
+}
+
+.icon {
+  height: 4vh;
+}
+
+.service--text {
+  width: 49%;
+}
+
+.product-name {
+  font-size: 24px;
+}
+
+.serve-text {
+  font-size: 16px;
+}
+
+.services-btn {
+  font-size: 24px;
+}
+
+
+.services--h1 {
+  font-size: 2rem;
+}
+
+.bestie {
+  width: 37%;
+  height: 35vh;
+}
+
+.film {
+padding: 30px;
+}
+
+.texta {
+  width: 100%;
+  height: 10vh;
+  padding: 0.7em 0.9em;
+  border-radius: 8px;
+  font-size: 17px;
+}
+
+
+.bestie {
+  width: 37%;
+  height: 29vh;
+}
+
+}
+
+    /* // @media (min-width: 769px) and (max-width: 950px){
+
+     }
+
+    // @media (min-width: 951px) and (max-width: 1024px){
+
+    // } */
