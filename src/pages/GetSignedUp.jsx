@@ -14,7 +14,7 @@ function GetSignedUp() {
     },
     {
       id: '25',
-      img: two,l
+      img: two,
       text: "Sock Boots",
       smallText: "Sock Boots offer a snug, sleek fit with an ultra-modern look. These boots combine comfort with a high-fashion aesthetic, perfect for urban wear."
     },
