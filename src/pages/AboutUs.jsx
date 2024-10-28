@@ -11,10 +11,7 @@ const AboutUs = () => {
     
     <div className="about">
 
-
-      <div className="green-shoe">
         <img src={yellow} alt="" className='about--img' />
-      </div>
 
       <div className="about-text">
         <h1 className='abaut-h1'>What we do</h1>

@@ -236,9 +236,8 @@ textarea{
 }
 
 .about--img {
-  width: 100%;
-  height: 51vh;
-  object-fit: cover;
+  width: 36%;
+  object-fit: contain;
   transition: .5s;
 }
 
@@ -273,7 +272,7 @@ textarea{
 }
 
 .abaut-h1 {
-  font-size: 44px;
+  font-size: 2.3rem;
   color: #f5c52f;
   text-align: center;
   margin: 5px;
@@ -330,11 +329,11 @@ text-decoration: none;
 }
 
 .bestie {
-  width: 29%;
-  height: 63vh;
-  object-fit: cover;
-  margin-top: 66px;
-  border-radius: 10px;
+    width: 30%;
+    object-fit: cover;
+    margin-top: 77px;
+    border-radius: 10px;
+    object-fit: contain;
 }
 
 .contact-h1{
@@ -379,7 +378,8 @@ flex-direction: column;
 background: #222626;
 border-radius: 5px;
 margin: 10px 0;
-width: 24%;
+width: 30%;
+margin-bottom: 39px;
 }
 
 .linlkis {
@@ -572,9 +572,9 @@ width: 24%;
 
 
 .forever {
-  width: 25%;
+  width: 22%;
   border-radius: 15px;
-  padding: 1.5rem;
+  margin: 20px;
   position: relative;
   background: white;
   display: flex;
@@ -611,8 +611,8 @@ padding: 20px;
 .cart-adds{
   padding: 5px 20px;
   border-radius: 10px;
-   border: none;
-   font-size: 20px;
+  border: none;
+  font-size: 20px;
 }
 
 .cart-adds1{
@@ -620,6 +620,7 @@ padding: 20px;
    margin:0 10px;
    padding: 14px 20px;
 }
+
 .good {
   width:100%;
   border-radius: 6%;
@@ -634,8 +635,6 @@ padding: 20px;
   position: absolute;
   left: 0;
   display: block;
-  width: 20%;
-  height: 100%;
   border-radius: 15px;
   background: rgba(black, o.6);
   z-index: 2;
@@ -645,7 +644,6 @@ padding: 20px;
 } 
 
 .infoy {
-  width: 76.8%;
   position:absolute;
   z-index: 3;
   color: white;
@@ -658,15 +656,16 @@ padding: 20px;
 .forever:hover .good{
   scale: 1.1;
 }
+
 .forever:hover .infoy{
   scale: 1.1;
   background: #222626;
   transform: translateY(8px);
-  width: 76.8%;
   color: hsl(0, 0%, 100%);
-  height: 30vh;
-  margin-left: 10px;
   opacity: 1;
+  padding: 10px;
+  border-radius: 10px;
+  width: 93%;
 }
 
 .full{
@@ -791,14 +790,6 @@ span{
   text-decoration: underline;
 }
 
-/* banner img */
-
-/* .prod-img{
-    width: 40%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-} */
 
 .banner-img { 
   width: 100%;
@@ -941,9 +932,7 @@ span{
   padding: 43px 70px 60px 131px;
   position: absolute;
   top: 723px;
-  transition: .5s linear;
-  
-  
+  transition: .5s linear; 
 }
 
 .superimg{
@@ -1180,7 +1169,6 @@ gap: 20px;
 
 .piks--img{
   width:100%;
-  height: 20vh;
   object-fit: contain;
   border-radius:10px;
 }
@@ -1211,7 +1199,7 @@ gap: 20px;
 
 .piks{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -1230,7 +1218,7 @@ gap: 20px;
 }
 
 .pikis{
-  width: 26%;
+  margin: 0 20px;
   background-color: #2e2e3f;
   margin-top: -20px;
   border-radius: 20px;
@@ -2058,8 +2046,10 @@ a > .plus-img{
 }
 
 .about--img {
-  height: 34vh;
-  margin-bottom: 5px;
+    width: 91%;
+    object-fit: contain;
+    transition: .5s;
+    margin-bottom: 20px;
 }
 
 .about-text {
@@ -2118,11 +2108,6 @@ a > .plus-img{
   font-size: 19px;
 }
 
-.fit > img {
-  height: 17vh;
-  width: 40%;
-  margin-top: 45px;
-}
 
 .test-text > p {
   font-size: 9px;
@@ -2135,9 +2120,7 @@ a > .plus-img{
   margin: 6px 0;
 }
 
-.fit {
-  padding: 13px 10px;
-}
+
 
 .back {
   margin-left: 17px;
@@ -2156,10 +2139,7 @@ a > .plus-img{
 }
 
 .forever {
-  width: 100%;
-  height: 366px;
-  padding: 7px 5px;
-  margin-bottom: 30px;
+ width: 100%;
 }
 
 .h1-more {
@@ -2191,14 +2171,13 @@ input {
 
 .keep {
   flex-direction: column;
+  align-items: center;
 }
 
 
 .forever:hover .infoy {
-  width: 87.8%;
-  margin-left: 15px;
-  transform: translateY(-9px);
-  border-radius: 11%;
+  width: 85%;
+  margin: -30px 0 0 15px;
 }
 
 .forever:hover .good {
@@ -2207,7 +2186,7 @@ input {
 
 .good {
   width: 100%;
-  height: 59vh;
+  /* height: 59vh; */
   border-radius: 11%;
   object-fit: cover;
 }
@@ -2276,8 +2255,7 @@ input {
 }
 
 .fit > img {
-  height: 26vh;
-  width: 93%;
+  width: 67%;
 }
 
 .fit {
@@ -2307,10 +2285,6 @@ input {
 }
 
 
-.forever {
-  height: 469px;
-}
-
 .film {
   padding: 20px;
 }
@@ -2320,51 +2294,7 @@ input {
 
 
 
-/* Tablets */
-@media only screen and (max-width: 768px) {
-  /* Styles for tablets */
-}
 
-/* Small laptops and tablets in landscape */
-@media only screen and (max-width: 992px) {
-  /* Styles for small laptops or tablets in landscape */
-}
-
-/* Laptops and large desktops */
-@media only screen and (max-width: 1200px) {
-  /* Styles for standard laptops */
-}
-
-/* Larger desktops */
-@media only screen and (min-width: 1200px)and (max-width: 1440px) {
-  .navbar {
-    padding: 15px 65px;
-   }
-
-   .banner {
-    width: 98.6%;
-   }
-
-   .numbers {
-    width: 94.7%;
-    }
-
-    .fit > img {
-      height: 46vh;
-      width: 40%;
-  }
-
-  .forever:hover .infoy {
-    margin-left: 2px;
-    border-radius: 7px;
-    width: 83%;
-  }
-
-}
-/* Full HD and larger monitors */
-@media only screen and (max-width: 1920px) {
-  /* Styles for Full HD monitors */
-}
 
 
     @media (min-width: 569px) and (max-width:768px){
@@ -2422,15 +2352,6 @@ input {
   padding: 20px 32px;
 }
 
-.pikis {
-  width: 31%;
-}
-
-.piks--img {
-  width: 100%;
-  height: 9vh;
-}
-
 .back {
   margin-left: 38px;
 }
@@ -2440,15 +2361,8 @@ input {
 }
 
 .forever:hover .infoy {
-  height: 16vh;
-  width: 72.8%;
-  margin-left: 0px;
+  width: 88%;
 }
-
-.forever:hover .infoy {
-  border-radius: 14px;
-}
-
 
 .infoy > h1 {
   font-size: 18px;
@@ -2520,10 +2434,22 @@ padding: 30px;
 
 }
 
-    /* // @media (min-width: 769px) and (max-width: 950px){
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    padding: 15px 65px;
+   }
 
-     }
+   .banner {
+    width: 98.6%;
+   }
 
-    // @media (min-width: 951px) and (max-width: 1024px){
+   .numbers {
+    width: 94.7%;
+    }
 
-    // } */
+    .fit > img {
+      width: 40%;
+  }
+
+}
+  
